@@ -6,11 +6,11 @@ const uploadImagePath = "./images/";
 
 // AWS s3 上传配置
 const config = {
-  accessKeyId: "AKIAQKEGZ6OOUZBAZHMK",
-  secretAccessKey: "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",
-  region: "cn-northwest-1",
-  albumBucketName: "nx-prd-dpbp",
-  domain: "amazonaws.com.cn",
+  accessKeyId: "",
+  secretAccessKey: "",
+  region: "",
+  albumBucketName: "",
+  domain: "",
 };
 AWS.config.update({
   accessKeyId: config.accessKeyId,
